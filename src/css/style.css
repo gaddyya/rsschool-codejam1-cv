@@ -8,13 +8,17 @@
 
 html {
     font-family: 'Lato', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
     font-weight: 300px;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     color: #e2eaf0;
+    background: #3b3738;
 }
 
 .clearfix {
+    overflow: auto;
     zoom: 1
 }
 
@@ -27,8 +31,6 @@ html {
 }
 
 div {
-    margin: 0 auto;
-    max-width: 1024px;
     background-position: center;
 }
 
@@ -154,10 +156,6 @@ p{
     margin-right: 20px;
 }
 
-.insideBottomSide .right {
-    
-}
-
 .box{
     padding-top: 20px;
     padding-bottom: 30px;
@@ -166,11 +164,12 @@ p{
 .box img{
     width: 400px;  
     float: left;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .box p{
-    padding-bottom: 10px;
+    font-size: 80%;
 }
 
 .row{
@@ -236,10 +235,6 @@ p{
 }
 
 /*------------------------Icon----------------------*/
-
-i {
-    
-}
 
 .fa-facebook {
     padding-left: 35px;
